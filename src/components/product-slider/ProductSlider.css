@@ -1,0 +1,19 @@
+.product-slider-container {
+  padding-top: 2rem;
+  width: 100%;
+  max-width: 85rem;
+  overflow: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: static !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  position: static !important;
+  font-size: 16px !important;
+  height: 0;
+  color: var(--color-text);
+}

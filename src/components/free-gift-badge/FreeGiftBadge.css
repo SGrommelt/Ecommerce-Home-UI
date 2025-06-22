@@ -1,0 +1,8 @@
+.free-gift-badge {
+  background-color: var(--color-gift-badge-background);
+  color: var(--color-gift-badge-text);
+  width: fit-content;
+  padding: 0.1rem 0.25rem 0;
+  font-size: 0.75rem;
+      margin: 0 .5rem .25rem 0;
+}

@@ -1,0 +1,11 @@
+.sale-badge-wrapper {
+  width: 80%;
+}
+
+.sale-badge {
+  background-color: var(--color-sale-badge-background);
+  color: var(--color-sale-badge-text);
+  width: fit-content;
+  padding: 0.1rem 0.25rem 0;
+  font-size: 0.75rem;
+}

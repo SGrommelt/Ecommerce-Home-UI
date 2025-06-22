@@ -1,0 +1,48 @@
+.category-card-wrapper {
+  width: 19.25375rem;
+  height: 18.1525rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card-wrapper:hover .category-card-image {
+  opacity: 0.8;
+}
+
+.category-card-wrapper p {
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+.category-card-wrapper:hover {
+  text-decoration: underline;
+}
+
+.category-card-image {
+  width: 19.25375rem;
+  height: 15.4025rem;
+  transition: opacity 0.3s ease;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .category-card-wrapper {
+    height: 17rem;
+  }
+
+  .category-card-wrapper p {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .category-card-wrapper {
+    height: 17rem;
+  }
+
+  .category-card-wrapper p {
+    font-size: 1rem;
+  }
+}

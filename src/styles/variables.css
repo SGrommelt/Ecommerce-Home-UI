@@ -1,0 +1,23 @@
+/* Variables */
+:root {
+  /* Color Variables */
+  --color-background: #ffffff;
+  --color-text: #232323;
+  --color-counter-text: #ffffff;
+  --color-button-text: #ffffff;
+  --color-button-bg: #000000;
+  --color-button-hover: #232323;
+  --color-sale-badge-text: #cc0058;
+  --color-sale-badge-background: #fdf1f3;
+  --color-gift-badge-text: #cc0058;
+  --color-gift-badge-background: #fdf1f3;
+  --color-product-title: #6e6e6e;
+  --color-product-ratings-text: #6e6e6e;
+  --color-product-image-background: #f6f6f6;
+  --color-product-discount-price-text: #cc0058;
+  --color-product-discount-price-normal-text: #6e6e6e;
+  --color-categories-background: #fff5eb;
+
+  /* Font Variables */
+  --font-primary: "Figtree", sans-serif;
+}

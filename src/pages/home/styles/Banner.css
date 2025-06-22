@@ -1,0 +1,140 @@
+.home-banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-banner-wrapper a {
+  width: 100%;
+  max-width: 85rem;
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+}
+
+.home-banner-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  height: 21.875rem;
+  width: 100%;
+  max-width: 85rem;
+  background-image: url("/images/banner-bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-banner-content {
+  grid-column: 3 / span 6;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 500px;
+}
+
+.home-banner-content p {
+  font-size: 1.25rem;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .home-banner-container {
+    height: 30vh;
+    background-position: right 35% center;
+  }
+
+  .home-banner-wrapper h1 {
+    width: 80%;
+  }
+
+  .home-banner-wrapper a {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .home-banner-content {
+    grid-column: 1 / span 6;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .home-banner-content p {
+    font-size: 0.7rem;
+    width: 60%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home-banner-container {
+    height: 50vh;
+    background-position: right 30% center;
+  }
+
+  .home-banner-wrapper h1 {
+    width: 80%;
+  }
+
+  .home-banner-wrapper a {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .home-banner-content {
+    grid-column: 1 / span 6;
+    gap: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .home-banner-content p {
+    font-size: 0.7rem;
+    width: 40%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home-banner-container {
+    height: 60vh;
+    background-position: right 40% center;
+  }
+
+  .home-banner-wrapper a {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .home-banner-content {
+    grid-column: 1 / span 6;
+    gap: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .home-banner-content p {
+    font-size: 0.7rem;
+    width: 70%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .home-banner-container {
+    height: 40vh;
+    background-position: right 40% center;
+  }
+
+  .home-banner-wrapper a {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .home-banner-content {
+    grid-column: 1 / span 6;
+    gap: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .home-banner-content p {
+    width: 70%;
+  }
+}
