@@ -8,7 +8,7 @@ import { useProducts } from "./hooks/useProducts";
 import "./styles/ProductHighlights.css";
 
 const ProductHighlights = () => {
-  const { products, loading } = useProducts();
+  const { products } = useProducts();
 
   return (
     <div className="product-highlights-container">
